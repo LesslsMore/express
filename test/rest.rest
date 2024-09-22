@@ -1,0 +1,11 @@
+POST http://127.0.0.1:8964/cids
+Content-Type: application/json
+
+{
+  "part": "express",
+  "page": 1,
+  "limit": 10
+}
+
+###
+GET  http://127.0.0.1:8964/cids
