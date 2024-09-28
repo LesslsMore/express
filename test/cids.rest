@@ -37,7 +37,7 @@ POST http://127.0.0.1:8964/vlist/2bvids
 
 ###
 
-POST https://express-eight-tau.vercel.app/cids
+POST https://lesslsmore-api.vercel.app/cids
 Content-Type: application/json
 
 {
