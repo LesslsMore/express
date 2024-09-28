@@ -1,0 +1,52 @@
+GET  http://127.0.0.1:8964/cids
+
+###
+
+GET http://127.0.0.1:8964/cids
+Content-Type: application/json
+
+{
+  "part": "mongo",
+  "page": 1,
+  "limit": 10
+}
+
+###
+
+POST http://127.0.0.1:8964/cids
+Content-Type: application/json
+
+{
+  "part": "mongo",
+  "page": 1,
+  "limit": 10
+}
+
+###
+
+POST http://127.0.0.1:8964/bvids/2cids
+
+###
+
+POST http://127.0.0.1:8964/pages/2vlist
+
+###
+
+POST http://127.0.0.1:8964/vlist/2bvids
+
+
+###
+
+POST https://express-eight-tau.vercel.app/cids
+Content-Type: application/json
+
+{
+  "part": "express",
+  "page": 1,
+  "limit": 10
+}
+
+###
+
+GET  https://express-eight-tau.vercel.app/cids
+
